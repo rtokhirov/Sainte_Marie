@@ -1,0 +1,256 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    @font-face {
+        font-family: "Chivo";
+        src: url("../fonts/Chivo-Regular.woff2") format("woff2"), url("../fonts/Chivo-Regular.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: "Chivo";
+        src: url("../fonts/chivo-v17-latin-700.woff2") format("woff2"), url("../fonts/chivo-v17-latin-700.woff") format("woff");
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    body {
+        background-color: white;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Chivo';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    main {
+        flex-grow: 1;
+    }
+    
+    .container {
+        width: 1020px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    
+    .site_header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 22px;
+        margin-bottom: 120px;
+    }
+    
+    .nav_list {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    
+    .nav_list li {
+        margin-left: 45px;
+        list-style: none;
+        font-family: 'Century Gothic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 14px;
+        /* identical to box height, or 108% */
+        text-align: right;
+        color: #AAAAAA;
+    }
+    
+    .hero_section {
+        background: url(../images/hero-img.png);
+        width: 920px;
+        height: 613px;
+    }
+    
+    .hero_wrapper {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 35px;
+        width: 452px;
+        padding-top: 260px;
+    }
+    
+    .hero_wrapper h2 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    
+    .hero_wrapper p {
+        font-size: 20px;
+        line-height: 31px;
+        letter-spacing: 0.206928px;
+    }
+    
+    .vannieries {
+        padding-top: 210px;
+        margin-top: 35px;
+        margin-bottom: 17px;
+        width: 920px;
+        height: 528px;
+        background-image: url(../images/exp-bg.png);
+    }
+    
+    .vannieries h2 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    
+    .vannieries p {
+        font-size: 20px;
+        line-height: 31px;
+        letter-spacing: 0.206928px;
+    }
+    
+    .collection1 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 35px;
+    }
+    
+    .sand {
+        background-image: url(../images/collection-bg.png);
+        padding-top: 192px;
+        width: 443px;
+        height: 443px;
+    }
+    
+    .sand h3 {
+        font-size: 28px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    
+    .sand p {
+        font-size: 12px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    
+    .chanvre {
+        background-image: url(../images/collection2-bg.png);
+        padding-top: 192px;
+        width: 443px;
+        height: 443px;
+    }
+    
+    .chanvre h3 {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    
+    .chanvre p {
+        font-size: 13px;
+        line-height: 28px;
+    }
+    
+    .collection2 {
+        display: flex;
+        justify-content: space-between;
+        line-height: 25px;
+    }
+    
+    .correcpondes {
+        padding-top: 120px;
+        background-image: url(../images/port-bg.png);
+        width: 284px;
+        height: 284px;
+    }
+    
+    .abris {
+        background-image: url(../images/port2-bg2.png);
+        padding-top: 120px;
+        width: 284px;
+        height: 284px;
+    }
+    
+    .correcpondes2 {
+        background-image: url(../images/port3.png);
+        padding-top: 120px;
+        width: 284px;
+        height: 284px;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    .blacks {
+        margin-top: 130px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .blacks div {
+        margin-right: 10px;
+        width: 36px;
+        height: 36px;
+        background-color: black;
+    }
+    
+    .footer_div img {
+        margin-bottom: 10px;
+    }
+    
+    .footer_div h2 {
+        font-family: 'Abel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        /* identical to box height, or 158% */
+        text-align: center;
+        letter-spacing: 0.38px;
+        color: #333333;
+        margin-bottom: 40px;
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and ( min--moz-device-pixel-ratio: 2),
+    only screen and ( -o-min-device-pixel-ratio: 2/1),
+    only screen and ( min-device-pixel-ratio: 2),
+    only screen and ( min-resolution: 192dpi),
+    only screen and ( min-resolution: 2dppx) {
+        .hero_section {
+            background: url(../images/hero-img@2x.png);
+        }
+        .vannieries {
+            background-image: url(../images/exp-bg@2x.png);
+        }
+        .sand {
+            background-image: url(../images/collection-bg.png);
+        }
+        .chanvre {
+            background-image: url(../images/collection2-bg@2x.png);
+        }
+        .correcpondes {
+            background-image: url(../images/port-bg@2x.png);
+        }
+        .abris {
+            background-image: url(../images/port2-bg2@2x.png);
+        }
+        .correcpondes2 {
+            background-image: url(../images/port3@2x.png);
+        }
+    }
